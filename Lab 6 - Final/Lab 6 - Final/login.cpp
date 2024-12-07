@@ -4,10 +4,13 @@
 #include "mainMenu.h"
 #include <sstream>
 
-
+/*******************************************************
+ * Function Name: LoginMenu Constructor
+ * Purpose: Initializes class derived from Menu class
+ * giving menu option that will be added to Menu
+ *******************************************************/
 LoginMenu::LoginMenu() : Menu("Login Menu")
 {
-	//cout << "Enter your account";
 	MenuOption op1('1', "Enter your account to login", "Description");
 	MenuOption op2('2', "Get Help", "Description");
 	MenuOption op3('X', "Exit", "Description");
@@ -15,50 +18,13 @@ LoginMenu::LoginMenu() : Menu("Login Menu")
 	addOption(op1);
 	addOption(op2);
 	addOption(op3);
-
-	//initUserData();
-
 }
-//LoginMenu::~LoginMenu()
-//{
-//	if (inFile.is_open())
-//	{
-//		inFile.close();
-//	}
-//}
-//void LoginMenu::initUserData()
-//{
-//	ifstream inFile(USERS_DATA); // Assuming USERS_DATA points to users.csv
-//	if (inFile.fail()) {
-//		cout << "Unable to open the file: " << USERS_DATA << endl;
-//		return;
-//	}
-//	string line;
-//	getline(inFile, line); // Skip the header line
-//	while (getline(inFile, line)) {
-//		istringstream ss(line);
-//		string text;
-//
-//		getline(ss, text, ',');
-//		user.setId(stoi(text));
-//		getline(ss, text, ',');
-//		user.setUsername(text);
-//		getline(ss, text, ',');
-//		user.setPassword(text);
-//		getline(ss, text, ',');
-//		user.setRole(stoi(text));
-//		getline(ss, text, ',');
-//		user.setEmail(text);
-//		getline(ss, text, ',');
-//		users.push_back(user);
-//	}
-//	inFile.close();
-//	activate();
-//}
-
+/*******************************************************
+ * Function Name: activate() 
+ * Purpose: activates menu and allows user to select an option
+ *******************************************************/
 void LoginMenu::activate()
 {
-	//NodeTree<Menu>* currentNode = menuTree.getRoot();
 	char choice = 0;
 	do {
 		choice = getInput();
@@ -77,7 +43,12 @@ void LoginMenu::activate()
 		}
 	} while (choice != 'X');
 }
-
+/*******************************************************
+ * Function Name: login()
+ * Purpose: compares login username and password with 
+ * the ones provided. If matches, moves to MainMenu.
+ * Else, shows a data exception error
+ *******************************************************/
 void LoginMenu::login()
 {
 	string _username, _password;
@@ -94,20 +65,17 @@ void LoginMenu::login()
 			if (_username == username && _password == password)
 			{
 				cout << "** Login successful" << endl;
-				if (inFile.is_open())
-				{
-					inFile.close();
-				}
 				MainMenu mainMenu;
 				mainMenu.activate();
-				// TODO: Activate Main menu
 			}
 			else if (_username != username)
 			{
+				// Throw Exception if username doesnt match
 				throw DataException(_username);
 			}
 			else if (_password != password)
 			{
+				// Throw a default exception if password doesnt match
 				throw (_password);
 			}
 		}
@@ -124,12 +92,13 @@ void LoginMenu::login()
 	cout << "Unable to login after three attempts";
 
 }
+/*******************************************************
+ * Function Name: help()
+ * Purpose: Provides guidance to the user in order to login
+ * Parameter: none
+ *******************************************************/
 void LoginMenu::help()
 {
 	cout << "To access the educational platform you have to login into one of the existing accounts." << endl;
 	cout << "Username: " << username << ". Password: " << password << endl;
-	//for (auto user : users)
-	//{
-	//	cout << " - " << user.getUsername() << endl;
-	//}
 }

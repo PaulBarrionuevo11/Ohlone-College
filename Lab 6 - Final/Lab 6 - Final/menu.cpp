@@ -21,7 +21,7 @@ void Menu::addOption(MenuOption& option) {
 }
 
 void Menu::display() {
-	cout << "***** " << name << " *****" << endl;
+	cout << "** " << name << " **" << endl;
 	for (int i = 0; i < options.size(); i++) {
 		MenuOption* option = options.at(i);
 		cout << "\t" << static_cast<char>(option->getKey()) << ") " << option->getShortName() << endl;
