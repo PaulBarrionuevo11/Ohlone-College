@@ -59,31 +59,11 @@ string User::to_csv() {
 		+ logoutDt.toString();
 }
 
-/*
-istream& operator>>(istream& in, User& user) {
-	cout << "Enter new id: ";
-	int id;
-	cin >> id;
-	user.setId(id);
-
-	cout << "Enter username: ";
-	string s;
-	cin >> s;
-	user.setUsername(s);
-
-	cout << "Enter password: ";
-	cin >> s;
-	user.setPassword(s);
-
-	cout << "Enter role (Role=1 (admin);Role=2(user): ";
-	int role;
-	cin >> role;
-	user.setRole(role);
-
-	cout << "Enter email: ";
-	cin >> s;
-	user.setEmail(s);
-
-	// todo... datetime
-	return in;
-}*/
+bool User::operator==(const User& other) {
+	// Compare all relevant member variables
+	return this->id == other.id &&
+		this->username == other.username &&
+		this->email == other.email &&
+		this->password == other.password &&
+		this->role == other.role;
+}

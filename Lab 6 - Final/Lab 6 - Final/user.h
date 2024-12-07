@@ -33,8 +33,9 @@ public:
 
 	string to_csv();
 
+	
+	bool operator==(const User&);
 	/*
-	bool operator==(const User&) const;
 	bool operator!=(const User&) const;
 	bool operator>(const User&) const;
 	bool operator<(const User&) const;

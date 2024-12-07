@@ -165,7 +165,8 @@ int ArrayList<T>::searchSeq(T element) {
 
 template <typename T>
 int ArrayList<T>::binarySearch(/*int array[], int size,*/ T element) {
-    int low = 0, high = this->size() - 1;
+    int low = 0;
+    int high = this->size() - 1;
     while (low <= high) {
         int mid = low + (high - low) / 2;
         if (buffer[mid] == element)

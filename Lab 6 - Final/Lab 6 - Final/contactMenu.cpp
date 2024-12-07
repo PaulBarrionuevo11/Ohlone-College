@@ -6,7 +6,15 @@
 
 ContactMenu::ContactMenu() : Menu("Contact Menu")
 {
-    // Add options to the user menu
+    /*******************************************************
+     * Function Name: ContactMenu
+     * Purpose: Constructor for the ContactMenu class, which
+     *          initializes the contact menu with various options
+     *          and loads data from the file into the contact list.
+     * Parameter: None
+     * Return: None
+     *******************************************************/
+     // Add options to the user menu
     MenuOption op1('1', "List of contacts", "Show details");
     MenuOption op2('2', "View of contacts", "Show details");
     MenuOption op3('3', "Add new contact", "Show details");
@@ -21,40 +29,64 @@ ContactMenu::ContactMenu() : Menu("Contact Menu")
     addOption(op5);
     addOption(op6);
 
-    initContactData();
+    initData();
 }
+
 ContactMenu::~ContactMenu()
 {
-    // Save data to CSV before the object is destroyed
+    /*******************************************************
+     * Function Name: ~ContactMenu
+     * Purpose: Destructor for the ContactMenu class. It saves
+     *          data to the contact file and ensures that
+     *          the input file is properly closed.
+     * Parameter: None
+     * Return: None
+     *******************************************************/
     saveData();
 
-    // Optional: Close the file stream if opened earlier for reading
     if (inFile.is_open()) {
         inFile.close();
     }
 
     cout << "User data saved successfully. Exiting User Menu." << endl;
 }
+
 void ContactMenu::showContactList()
 {
+    /*******************************************************
+     * Function Name: showContactList
+     * Purpose: Prompts the user to enter a field to sort
+     *          the contact list by (e.g., id, name).
+     * Parameter: None
+     * Return: None
+     *******************************************************/
     cout << "Enter field to sort by (e.g., id, firstName, lastName): ";
-    contactList.sort();  // Calls quickSort internally based on the selected field
+    contactList.sort();  // Calls quickSort internally based on the selected 
 
-    // Display sorted contacts using display method
-    //contactList.display();
 }
+
 void ContactMenu::viewContact()
 {
-    // View contact by selecting id and showing that specific contact
+    /*******************************************************
+     * Function Name: viewContact
+     * Purpose: Displays the list of all contacts and their details
+     *          such as id, name, and contact information.
+     * Parameter: None
+     * Return: None
+     *******************************************************/
     cout << "id, first_name, middle_name, last_name, company_name, address, city, county, state, zip, phone1, phone2, email" << endl;
-    /*for (const auto& contact : contacts)
-        cout << contact << endl;
-    cout << "Array size " << contacts.size();
-    */
     contactList.print();
 }
+
 void ContactMenu::addContact()
 {
+    /*******************************************************
+     * Function Name: addContact
+     * Purpose: Collects details from the user to create a new
+     *          contact and adds it to the contact list.
+     * Parameter: None
+     * Return: None
+     *******************************************************/
     string id, firstName, middleName, lastName, company, address,
         city, county, state, zip, email, phone1, phone2;
 
@@ -84,6 +116,7 @@ void ContactMenu::addContact()
     cin >> phone2;
     cout << "Email: ";
     cin >> email;
+
     Person p;
     p.setId(1000 + contactList.size() + 1);
     p.setFirstName(firstName);
@@ -98,11 +131,21 @@ void ContactMenu::addContact()
     p.setPhone1(phone1);
     p.setPhone2(phone2);
     p.setEmail(email);
+
+    // Add person to contact list
     contactList.insert(p);
 }
+
 void ContactMenu::editContact()
 {
-    // Prompt the user to enter the ID of the contact to edit
+    /*******************************************************
+     * Function Name: editContact
+     * Purpose: Allows the user to edit the details of an
+     *          existing contact in the contact list.
+     * Parameter: None
+     * Return: None
+     *******************************************************/
+     // Prompt the user to enter the ID of the contact to edit
     int id;
     cout << "Enter the contact ID you want to edit: ";
     cin >> id;
@@ -226,7 +269,14 @@ void ContactMenu::editContact()
 
 void ContactMenu::deleteContact()
 {
-    // Prompt the user to enter the ID of the contact to delete
+    /*******************************************************
+     * Function Name: deleteContact
+     * Purpose: Prompts the user for a contact ID and deletes
+     *          the contact from the contact list if found.
+     * Parameter: None
+     * Return: None
+     *******************************************************/
+     // Prompt the user to enter the ID of the contact to delete
     int id;
     cout << "Enter the contact ID you want to delete: ";
     cin >> id;
@@ -248,7 +298,16 @@ void ContactMenu::deleteContact()
     }
 }
 
-void ContactMenu::activate() {
+void ContactMenu::activate()
+{
+    /*******************************************************
+     * Function Name: activate
+     * Purpose: Main menu activation function. It handles user
+     *          input and calls the appropriate functions for
+     *          managing contacts.
+     * Parameter: None
+     * Return: None
+     *******************************************************/
     char choice = 0;
     do {
         choice = getInput();
@@ -276,15 +335,24 @@ void ContactMenu::activate() {
         }
     } while (choice != 'X');
 }
-void ContactMenu::initContactData()
+
+void ContactMenu::initData()
 {
+    /*******************************************************
+     * Function Name: initData
+     * Purpose: Initializes contact data by reading from
+     *          the contact data file and adding each contact
+     *          to the contact list.
+     * Parameter: None
+     * Return: None
+     *******************************************************/
     ifstream inFile(CONTACT_DATA);
     if (inFile.fail()) {
         cout << "Unable to open the file: " << CONTACT_DATA << endl;
         return;
     }
     string line;
-    getline(inFile, line);
+    getline(inFile, line);  // Skip header row
     while (getline(inFile, line))
     {
         istringstream ss(line);
@@ -323,8 +391,17 @@ void ContactMenu::initContactData()
     }
     inFile.close();
 }
+
 void ContactMenu::saveData()
 {
+    /*******************************************************
+     * Function Name: saveData
+     * Purpose: Saves the current contact list data to a file.
+     *          Writes the contact data to a CSV file for
+     *          persistent storage.
+     * Parameter: None
+     * Return: None
+     *******************************************************/
     ofstream outFile(CONTACT_DATA);
     if (outFile.fail()) {
         cout << "Unable to open the file for writing: " << CONTACT_DATA << endl;
@@ -356,4 +433,3 @@ void ContactMenu::saveData()
     outFile.close();
     cout << "Contact data saved successfully." << endl;
 }
-
