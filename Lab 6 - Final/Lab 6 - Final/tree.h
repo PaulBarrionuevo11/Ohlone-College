@@ -1,3 +1,7 @@
+// Node1.h
+#ifndef NODE1_H
+#define NODE1_H
+
 #include <iostream>
 #include <string>
 #include <vector>
@@ -8,20 +12,16 @@ template<typename T>
 class Tree;
 
 template<typename T>
-class NodeTree {
+class Node1 {
 public:
-
-private:
-    vector<NodeTree<T>*> children;
     T data;
+    vector<Node1<T>*> children;
 
     int size() const;
     int number_of_leaves() const;
-    void print() const;
-    NodeTree<T>* getChild(int index) const;
+    void print(int level = 0) const;
 
-
-    ~NodeTree(); // Recursive destructor to clean up dynamically allocated nodes
+    ~Node1(); // Recursive destructor to clean up dynamically allocated nodes
     friend class Tree<T>;
 };
 
@@ -36,10 +36,7 @@ public:
     int size() const;
     int number_of_leaves() const;
     void print() const;
-    NodeTree<T>* getRoot() const;
-
-private:
-    NodeTree<T>* root;
+    Node1<T>* root;
 };
 
 // Tree Implementation
@@ -48,7 +45,7 @@ Tree<T>::Tree() : root(nullptr) {}
 
 template<typename T>
 Tree<T>::Tree(T root_data) {
-    root = new NodeTree<T>;
+    root = new Node1<T>;
     root->data = root_data;
 }
 
@@ -83,50 +80,37 @@ void Tree<T>::print() const {
 
 // Node Implementation
 template<typename T>
-NodeTree<T>::~NodeTree() {
-    for (NodeTree<T>* child : children) {
+Node1<T>::~Node1() {
+    for (Node1<T>* child : children) {
         delete child;
     }
 }
 
 template<typename T>
-int NodeTree<T>::size() const {
+int Node1<T>::size() const {
     int sum = 0;
-    for (NodeTree<T>* child : children) {
+    for (Node1<T>* child : children) {
         sum += child->size();
     }
     return 1 + sum;
 }
 
 template<typename T>
-int NodeTree<T>::number_of_leaves() const {
+int Node1<T>::number_of_leaves() const {
     if (children.empty()) return 1;
     int sum = 0;
-    for (const NodeTree<T>* child : children) {
+    for (const Node1<T>* child : children) {
         sum += child->number_of_leaves();
     }
     return sum;
 }
 
 template<typename T>
-void NodeTree<T>::print() const {
+void Node1<T>::print(int level) const {
+    for (int i = 0; i < level; ++i) cout << "  ";
     cout << data << endl;
-    for (const NodeTree<T>* child : children) {
-        child->print();
+    for (const Node1<T>* child : children) {
+        child->print(level + 1);
     }
 }
-
-/////////////
-
-template<typename T>
-NodeTree<T>* NodeTree<T>::getChild(int index) const {
-    if (index >= 0 && index < children.size()) {
-        return children[index];
-    }
-    return nullptr;
-}
-
-template<typename T>
-NodeTree<T>* Tree<T>::getRoot() const {
-    return root;
-}
+#endif // NODE1_H

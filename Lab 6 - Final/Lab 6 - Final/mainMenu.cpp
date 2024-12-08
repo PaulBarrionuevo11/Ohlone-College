@@ -3,6 +3,7 @@
 #include "userMenu.h"
 #include "courseMenu.h"
 #include "contactMenu.h"
+#include "gradeMenu.h"
 
 /*******************************************************
  * Function Name: MainMenu
@@ -90,4 +91,6 @@ void MainMenu::moveToCourses() {
  *******************************************************/
 void MainMenu::moveToGradeBook() {
     // Grade Book functionality not yet implemented
+    GradeMenu gradeMenu;
+    gradeMenu.activate();
 }
