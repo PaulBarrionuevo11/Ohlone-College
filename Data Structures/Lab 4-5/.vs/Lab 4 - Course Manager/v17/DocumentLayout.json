@@ -1,0 +1,169 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\pable\\Documents\\Github\\Ohlone\\Data Structures\\Lab 4-5\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EEDA7D41-671C-4834-B3EE-F8C1E16466C1}|Lab 4 - Course Manager\\Lab 4 - Course Manager.vcxproj|C:\\Users\\pable\\Documents\\Github\\Ohlone\\Data Structures\\Lab 4-5\\Lab 4 - Course Manager\\FacultyManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{EEDA7D41-671C-4834-B3EE-F8C1E16466C1}|Lab 4 - Course Manager\\Lab 4 - Course Manager.vcxproj|solutionrelative:Lab 4 - Course Manager\\FacultyManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EEDA7D41-671C-4834-B3EE-F8C1E16466C1}|Lab 4 - Course Manager\\Lab 4 - Course Manager.vcxproj|C:\\Users\\pable\\Documents\\Github\\Ohlone\\Data Structures\\Lab 4-5\\Lab 4 - Course Manager\\FacultyManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{EEDA7D41-671C-4834-B3EE-F8C1E16466C1}|Lab 4 - Course Manager\\Lab 4 - Course Manager.vcxproj|solutionrelative:Lab 4 - Course Manager\\FacultyManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EEDA7D41-671C-4834-B3EE-F8C1E16466C1}|Lab 4 - Course Manager\\Lab 4 - Course Manager.vcxproj|C:\\Users\\pable\\Documents\\Github\\Ohlone\\Data Structures\\Lab 4-5\\Lab 4 - Course Manager\\Set.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{EEDA7D41-671C-4834-B3EE-F8C1E16466C1}|Lab 4 - Course Manager\\Lab 4 - Course Manager.vcxproj|solutionrelative:Lab 4 - Course Manager\\Set.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EEDA7D41-671C-4834-B3EE-F8C1E16466C1}|Lab 4 - Course Manager\\Lab 4 - Course Manager.vcxproj|C:\\Users\\pable\\Documents\\Github\\Ohlone\\Data Structures\\Lab 4-5\\Lab 4 - Course Manager\\Lab 4 - Course Manager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{EEDA7D41-671C-4834-B3EE-F8C1E16466C1}|Lab 4 - Course Manager\\Lab 4 - Course Manager.vcxproj|solutionrelative:Lab 4 - Course Manager\\Lab 4 - Course Manager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EEDA7D41-671C-4834-B3EE-F8C1E16466C1}|Lab 4 - Course Manager\\Lab 4 - Course Manager.vcxproj|C:\\Users\\pable\\Documents\\Github\\Ohlone\\Data Structures\\Lab 4-5\\Lab 4 - Course Manager\\CourseMenu.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{EEDA7D41-671C-4834-B3EE-F8C1E16466C1}|Lab 4 - Course Manager\\Lab 4 - Course Manager.vcxproj|solutionrelative:Lab 4 - Course Manager\\CourseMenu.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EEDA7D41-671C-4834-B3EE-F8C1E16466C1}|Lab 4 - Course Manager\\Lab 4 - Course Manager.vcxproj|C:\\Users\\pable\\Documents\\Github\\Ohlone\\Data Structures\\Lab 4-5\\Lab 4 - Course Manager\\ManageCourses.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{EEDA7D41-671C-4834-B3EE-F8C1E16466C1}|Lab 4 - Course Manager\\Lab 4 - Course Manager.vcxproj|solutionrelative:Lab 4 - Course Manager\\ManageCourses.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EEDA7D41-671C-4834-B3EE-F8C1E16466C1}|Lab 4 - Course Manager\\Lab 4 - Course Manager.vcxproj|C:\\Users\\pable\\Documents\\Github\\Ohlone\\Data Structures\\Lab 4-5\\Lab 4 - Course Manager\\ManageCourses.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{EEDA7D41-671C-4834-B3EE-F8C1E16466C1}|Lab 4 - Course Manager\\Lab 4 - Course Manager.vcxproj|solutionrelative:Lab 4 - Course Manager\\ManageCourses.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EEDA7D41-671C-4834-B3EE-F8C1E16466C1}|Lab 4 - Course Manager\\Lab 4 - Course Manager.vcxproj|C:\\Users\\pable\\Documents\\Github\\Ohlone\\Data Structures\\Lab 4-5\\Lab 4 - Course Manager\\LinkedList.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{EEDA7D41-671C-4834-B3EE-F8C1E16466C1}|Lab 4 - Course Manager\\Lab 4 - Course Manager.vcxproj|solutionrelative:Lab 4 - Course Manager\\LinkedList.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 298,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{a80febb4-e7e0-4147-b476-21aaf2453969}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Set.h",
+              "DocumentMoniker": "C:\\Users\\pable\\Documents\\Github\\Ohlone\\Data Structures\\Lab 4-5\\Lab 4 - Course Manager\\Set.h",
+              "RelativeDocumentMoniker": "Lab 4 - Course Manager\\Set.h",
+              "ToolTip": "C:\\Users\\pable\\Documents\\Github\\Ohlone\\Data Structures\\Lab 4-5\\Lab 4 - Course Manager\\Set.h",
+              "RelativeToolTip": "Lab 4 - Course Manager\\Set.h",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-12-09T21:57:59.62Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Lab 4 - Course Manager.cpp",
+              "DocumentMoniker": "C:\\Users\\pable\\Documents\\Github\\Ohlone\\Data Structures\\Lab 4-5\\Lab 4 - Course Manager\\Lab 4 - Course Manager.cpp",
+              "RelativeDocumentMoniker": "Lab 4 - Course Manager\\Lab 4 - Course Manager.cpp",
+              "ToolTip": "C:\\Users\\pable\\Documents\\Github\\Ohlone\\Data Structures\\Lab 4-5\\Lab 4 - Course Manager\\Lab 4 - Course Manager.cpp",
+              "RelativeToolTip": "Lab 4 - Course Manager\\Lab 4 - Course Manager.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-12-09T21:56:00.451Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FacultyManager.cpp",
+              "DocumentMoniker": "C:\\Users\\pable\\Documents\\Github\\Ohlone\\Data Structures\\Lab 4-5\\Lab 4 - Course Manager\\FacultyManager.cpp",
+              "RelativeDocumentMoniker": "Lab 4 - Course Manager\\FacultyManager.cpp",
+              "ToolTip": "C:\\Users\\pable\\Documents\\Github\\Ohlone\\Data Structures\\Lab 4-5\\Lab 4 - Course Manager\\FacultyManager.cpp",
+              "RelativeToolTip": "Lab 4 - Course Manager\\FacultyManager.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-12-09T21:55:14.574Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FacultyManager.h",
+              "DocumentMoniker": "C:\\Users\\pable\\Documents\\Github\\Ohlone\\Data Structures\\Lab 4-5\\Lab 4 - Course Manager\\FacultyManager.h",
+              "RelativeDocumentMoniker": "Lab 4 - Course Manager\\FacultyManager.h",
+              "ToolTip": "C:\\Users\\pable\\Documents\\Github\\Ohlone\\Data Structures\\Lab 4-5\\Lab 4 - Course Manager\\FacultyManager.h",
+              "RelativeToolTip": "Lab 4 - Course Manager\\FacultyManager.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-12-09T21:55:09.699Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CourseMenu.h",
+              "DocumentMoniker": "C:\\Users\\pable\\Documents\\Github\\Ohlone\\Data Structures\\Lab 4-5\\Lab 4 - Course Manager\\CourseMenu.h",
+              "RelativeDocumentMoniker": "Lab 4 - Course Manager\\CourseMenu.h",
+              "ToolTip": "C:\\Users\\pable\\Documents\\Github\\Ohlone\\Data Structures\\Lab 4-5\\Lab 4 - Course Manager\\CourseMenu.h",
+              "RelativeToolTip": "Lab 4 - Course Manager\\CourseMenu.h",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAACYAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-12-05T01:33:54.316Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "LinkedList.h",
+              "DocumentMoniker": "C:\\Users\\pable\\Documents\\Github\\Ohlone\\Data Structures\\Lab 4-5\\Lab 4 - Course Manager\\LinkedList.h",
+              "RelativeDocumentMoniker": "Lab 4 - Course Manager\\LinkedList.h",
+              "ToolTip": "C:\\Users\\pable\\Documents\\Github\\Ohlone\\Data Structures\\Lab 4-5\\Lab 4 - Course Manager\\LinkedList.h",
+              "RelativeToolTip": "Lab 4 - Course Manager\\LinkedList.h",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAIkBAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-11-12T05:03:01.697Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ManageCourses.h",
+              "DocumentMoniker": "C:\\Users\\pable\\Documents\\Github\\Ohlone\\Data Structures\\Lab 4-5\\Lab 4 - Course Manager\\ManageCourses.h",
+              "RelativeDocumentMoniker": "Lab 4 - Course Manager\\ManageCourses.h",
+              "ToolTip": "C:\\Users\\pable\\Documents\\Github\\Ohlone\\Data Structures\\Lab 4-5\\Lab 4 - Course Manager\\ManageCourses.h",
+              "RelativeToolTip": "Lab 4 - Course Manager\\ManageCourses.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-10-17T19:30:18.345Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ManageCourses.cpp",
+              "DocumentMoniker": "C:\\Users\\pable\\Documents\\Github\\Ohlone\\Data Structures\\Lab 4-5\\Lab 4 - Course Manager\\ManageCourses.cpp",
+              "RelativeDocumentMoniker": "Lab 4 - Course Manager\\ManageCourses.cpp",
+              "ToolTip": "C:\\Users\\pable\\Documents\\Github\\Ohlone\\Data Structures\\Lab 4-5\\Lab 4 - Course Manager\\ManageCourses.cpp",
+              "RelativeToolTip": "Lab 4 - Course Manager\\ManageCourses.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-10-27T22:34:53.072Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

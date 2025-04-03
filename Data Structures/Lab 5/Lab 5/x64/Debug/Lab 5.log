@@ -1,0 +1,89 @@
+﻿  CourseMenu.cpp
+C:\Users\pable\Documents\Github\Ohlone\Data Structures\Lab 5\Lab 5\HashTable.h(96,13): error C2665: 'hash_code': no overloaded function could convert all the argument types
+  (compiling source file 'CourseMenu.cpp')
+      C:\Users\pable\Documents\Github\Ohlone\Data Structures\Lab 5\Lab 5\HashTable.h(60,5):
+      could be 'int hash_code(Faculty &)'
+          C:\Users\pable\Documents\Github\Ohlone\Data Structures\Lab 5\Lab 5\HashTable.h(96,13):
+          'int hash_code(Faculty &)': cannot convert argument 1 from 'const T' to 'Faculty &'
+          with
+          [
+              T=std::pair<std::string,Faculty>
+          ]
+      C:\Users\pable\Documents\Github\Ohlone\Data Structures\Lab 5\Lab 5\HashTable.h(10,5):
+      or       'int hash_code(const std::string &)'
+          C:\Users\pable\Documents\Github\Ohlone\Data Structures\Lab 5\Lab 5\HashTable.h(96,13):
+          'int hash_code(const std::string &)': cannot convert argument 1 from 'const T' to 'const std::string &'
+          with
+          [
+              T=std::pair<std::string,Faculty>
+          ]
+              C:\Users\pable\Documents\Github\Ohlone\Data Structures\Lab 5\Lab 5\HashTable.h(96,23):
+              Reason: cannot convert from 'const T' to 'const std::string'
+          with
+          [
+              T=std::pair<std::string,Faculty>
+          ]
+              C:\Users\pable\Documents\Github\Ohlone\Data Structures\Lab 5\Lab 5\HashTable.h(96,23):
+              No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+      C:\Users\pable\Documents\Github\Ohlone\Data Structures\Lab 5\Lab 5\HashTable.h(96,13):
+      while trying to match the argument list '(const T)'
+          with
+          [
+              T=std::pair<std::string,Faculty>
+          ]
+      C:\Users\pable\Documents\Github\Ohlone\Data Structures\Lab 5\Lab 5\HashTable.h(96,13):
+      the template instantiation context (the oldest one first) is
+          C:\Users\pable\Documents\Github\Ohlone\Data Structures\Lab 5\Lab 5\ManageFaculty.h(23,38):
+          see reference to class template instantiation 'HashTable<std::pair<std::string,Faculty>>' being compiled
+          C:\Users\pable\Documents\Github\Ohlone\Data Structures\Lab 5\Lab 5\HashTable.h(95,39):
+          while compiling class template member function 'void HashTable<std::pair<std::string,Faculty>>::insert(const T &)'
+          with
+          [
+              T=std::pair<std::string,Faculty>
+          ]
+              C:\Users\pable\Documents\Github\Ohlone\Data Structures\Lab 5\Lab 5\ManageFaculty.h(71,28):
+              see the first reference to 'HashTable<std::pair<std::string,Faculty>>::insert' in 'ManageFaculty::loadFromCSV'
+  
+C:\Users\pable\Documents\Github\Ohlone\Data Structures\Lab 5\Lab 5\HashTable.h(118,13): error C2665: 'hash_code': no overloaded function could convert all the argument types
+  (compiling source file 'CourseMenu.cpp')
+      C:\Users\pable\Documents\Github\Ohlone\Data Structures\Lab 5\Lab 5\HashTable.h(60,5):
+      could be 'int hash_code(Faculty &)'
+          C:\Users\pable\Documents\Github\Ohlone\Data Structures\Lab 5\Lab 5\HashTable.h(118,13):
+          'int hash_code(Faculty &)': cannot convert argument 1 from 'const T' to 'Faculty &'
+          with
+          [
+              T=std::pair<std::string,Faculty>
+          ]
+      C:\Users\pable\Documents\Github\Ohlone\Data Structures\Lab 5\Lab 5\HashTable.h(10,5):
+      or       'int hash_code(const std::string &)'
+          C:\Users\pable\Documents\Github\Ohlone\Data Structures\Lab 5\Lab 5\HashTable.h(118,13):
+          'int hash_code(const std::string &)': cannot convert argument 1 from 'const T' to 'const std::string &'
+          with
+          [
+              T=std::pair<std::string,Faculty>
+          ]
+              C:\Users\pable\Documents\Github\Ohlone\Data Structures\Lab 5\Lab 5\HashTable.h(118,23):
+              Reason: cannot convert from 'const T' to 'const std::string'
+          with
+          [
+              T=std::pair<std::string,Faculty>
+          ]
+              C:\Users\pable\Documents\Github\Ohlone\Data Structures\Lab 5\Lab 5\HashTable.h(118,23):
+              No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+      C:\Users\pable\Documents\Github\Ohlone\Data Structures\Lab 5\Lab 5\HashTable.h(118,13):
+      while trying to match the argument list '(const T)'
+          with
+          [
+              T=std::pair<std::string,Faculty>
+          ]
+      C:\Users\pable\Documents\Github\Ohlone\Data Structures\Lab 5\Lab 5\HashTable.h(118,13):
+      the template instantiation context (the oldest one first) is
+          C:\Users\pable\Documents\Github\Ohlone\Data Structures\Lab 5\Lab 5\HashTable.h(117,38):
+          while compiling class template member function 'void HashTable<std::pair<std::string,Faculty>>::erase(const T &)'
+          with
+          [
+              T=std::pair<std::string,Faculty>
+          ]
+              C:\Users\pable\Documents\Github\Ohlone\Data Structures\Lab 5\Lab 5\ManageFaculty.h(89,27):
+              see the first reference to 'HashTable<std::pair<std::string,Faculty>>::erase' in 'ManageFaculty::updateFaculty'
+  

@@ -1,0 +1,251 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\pable\\Documents\\Github\\Ohlone\\Data Structures\\Lab 5\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0572E2CC-3BDB-4DC3-86C9-233914199E20}|Lab 5\\Lab 5.vcxproj|C:\\Users\\pable\\Documents\\Github\\Ohlone\\Data Structures\\Lab 5\\Lab 5\\HashTable.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{0572E2CC-3BDB-4DC3-86C9-233914199E20}|Lab 5\\Lab 5.vcxproj|solutionrelative:Lab 5\\HashTable.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0572E2CC-3BDB-4DC3-86C9-233914199E20}|Lab 5\\Lab 5.vcxproj|C:\\Users\\pable\\Documents\\Github\\Ohlone\\Data Structures\\Lab 5\\Lab 5\\ManageFaculty.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{0572E2CC-3BDB-4DC3-86C9-233914199E20}|Lab 5\\Lab 5.vcxproj|solutionrelative:Lab 5\\ManageFaculty.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0572E2CC-3BDB-4DC3-86C9-233914199E20}|Lab 5\\Lab 5.vcxproj|C:\\Users\\pable\\Documents\\Github\\Ohlone\\Data Structures\\Lab 5\\Lab 5\\Faculty.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{0572E2CC-3BDB-4DC3-86C9-233914199E20}|Lab 5\\Lab 5.vcxproj|solutionrelative:Lab 5\\Faculty.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0572E2CC-3BDB-4DC3-86C9-233914199E20}|Lab 5\\Lab 5.vcxproj|C:\\Users\\pable\\Documents\\Github\\Ohlone\\Data Structures\\Lab 5\\Lab 5\\CourseMenu.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{0572E2CC-3BDB-4DC3-86C9-233914199E20}|Lab 5\\Lab 5.vcxproj|solutionrelative:Lab 5\\CourseMenu.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0572E2CC-3BDB-4DC3-86C9-233914199E20}|Lab 5\\Lab 5.vcxproj|C:\\Users\\pable\\Documents\\Github\\Ohlone\\Data Structures\\Lab 5\\Lab 5\\CourseMenu.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{0572E2CC-3BDB-4DC3-86C9-233914199E20}|Lab 5\\Lab 5.vcxproj|solutionrelative:Lab 5\\CourseMenu.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0572E2CC-3BDB-4DC3-86C9-233914199E20}|Lab 5\\Lab 5.vcxproj|C:\\Users\\pable\\Documents\\Github\\Ohlone\\Data Structures\\Lab 5\\Lab 5\\ManageCourses.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{0572E2CC-3BDB-4DC3-86C9-233914199E20}|Lab 5\\Lab 5.vcxproj|solutionrelative:Lab 5\\ManageCourses.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0572E2CC-3BDB-4DC3-86C9-233914199E20}|Lab 5\\Lab 5.vcxproj|C:\\Users\\pable\\Documents\\Github\\Ohlone\\Data Structures\\Lab 5\\Lab 5\\ManageCourses.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{0572E2CC-3BDB-4DC3-86C9-233914199E20}|Lab 5\\Lab 5.vcxproj|solutionrelative:Lab 5\\ManageCourses.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0572E2CC-3BDB-4DC3-86C9-233914199E20}|Lab 5\\Lab 5.vcxproj|C:\\Users\\pable\\Documents\\Github\\Ohlone\\Data Structures\\Lab 5\\Lab 5\\LinkedListSet.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{0572E2CC-3BDB-4DC3-86C9-233914199E20}|Lab 5\\Lab 5.vcxproj|solutionrelative:Lab 5\\LinkedListSet.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0572E2CC-3BDB-4DC3-86C9-233914199E20}|Lab 5\\Lab 5.vcxproj|C:\\Users\\pable\\Documents\\Github\\Ohlone\\Data Structures\\Lab 5\\Lab 5\\LinkedList.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{0572E2CC-3BDB-4DC3-86C9-233914199E20}|Lab 5\\Lab 5.vcxproj|solutionrelative:Lab 5\\LinkedList.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0572E2CC-3BDB-4DC3-86C9-233914199E20}|Lab 5\\Lab 5.vcxproj|C:\\Users\\pable\\Documents\\Github\\Ohlone\\Data Structures\\Lab 5\\Lab 5\\Course.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{0572E2CC-3BDB-4DC3-86C9-233914199E20}|Lab 5\\Lab 5.vcxproj|solutionrelative:Lab 5\\Course.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0572E2CC-3BDB-4DC3-86C9-233914199E20}|Lab 5\\Lab 5.vcxproj|C:\\Users\\pable\\Documents\\Github\\Ohlone\\Data Structures\\Lab 5\\Lab 5\\DataException.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{0572E2CC-3BDB-4DC3-86C9-233914199E20}|Lab 5\\Lab 5.vcxproj|solutionrelative:Lab 5\\DataException.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0572E2CC-3BDB-4DC3-86C9-233914199E20}|Lab 5\\Lab 5.vcxproj|C:\\Users\\pable\\Documents\\Github\\Ohlone\\Data Structures\\Lab 5\\Lab 5\\Lab 5.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{0572E2CC-3BDB-4DC3-86C9-233914199E20}|Lab 5\\Lab 5.vcxproj|solutionrelative:Lab 5\\Lab 5.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0572E2CC-3BDB-4DC3-86C9-233914199E20}|Lab 5\\Lab 5.vcxproj|C:\\Users\\pable\\Documents\\Github\\Ohlone\\Data Structures\\Lab 5\\Lab 5\\Menu.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{0572E2CC-3BDB-4DC3-86C9-233914199E20}|Lab 5\\Lab 5.vcxproj|solutionrelative:Lab 5\\Menu.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 298,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{a80febb4-e7e0-4147-b476-21aaf2453969}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ManageFaculty.h",
+              "DocumentMoniker": "C:\\Users\\pable\\Documents\\Github\\Ohlone\\Data Structures\\Lab 5\\Lab 5\\ManageFaculty.h",
+              "RelativeDocumentMoniker": "Lab 5\\ManageFaculty.h",
+              "ToolTip": "C:\\Users\\pable\\Documents\\Github\\Ohlone\\Data Structures\\Lab 5\\Lab 5\\ManageFaculty.h",
+              "RelativeToolTip": "Lab 5\\ManageFaculty.h",
+              "ViewState": "AgIAADQAAAAAAAAAAAAuwEYAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-12-09T22:18:27.27Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HashTable.h",
+              "DocumentMoniker": "C:\\Users\\pable\\Documents\\Github\\Ohlone\\Data Structures\\Lab 5\\Lab 5\\HashTable.h",
+              "RelativeDocumentMoniker": "Lab 5\\HashTable.h",
+              "ToolTip": "C:\\Users\\pable\\Documents\\Github\\Ohlone\\Data Structures\\Lab 5\\Lab 5\\HashTable.h \u2B24",
+              "RelativeToolTip": "Lab 5\\HashTable.h \u2B24",
+              "ViewState": "AgIAADsAAAAAAAAAAAAAADsAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-12-09T22:11:37.136Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CourseMenu.cpp",
+              "DocumentMoniker": "C:\\Users\\pable\\Documents\\Github\\Ohlone\\Data Structures\\Lab 5\\Lab 5\\CourseMenu.cpp",
+              "RelativeDocumentMoniker": "Lab 5\\CourseMenu.cpp",
+              "ToolTip": "C:\\Users\\pable\\Documents\\Github\\Ohlone\\Data Structures\\Lab 5\\Lab 5\\CourseMenu.cpp",
+              "RelativeToolTip": "Lab 5\\CourseMenu.cpp",
+              "ViewState": "AgIAAP4BAAAAAAAAAAAAABYCAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-11-23T23:32:41.679Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "DataException.h",
+              "DocumentMoniker": "C:\\Users\\pable\\Documents\\Github\\Ohlone\\Data Structures\\Lab 5\\Lab 5\\DataException.h",
+              "RelativeDocumentMoniker": "Lab 5\\DataException.h",
+              "ToolTip": "C:\\Users\\pable\\Documents\\Github\\Ohlone\\Data Structures\\Lab 5\\Lab 5\\DataException.h",
+              "RelativeToolTip": "Lab 5\\DataException.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-11-25T14:17:05.855Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Course.h",
+              "DocumentMoniker": "C:\\Users\\pable\\Documents\\Github\\Ohlone\\Data Structures\\Lab 5\\Lab 5\\Course.h",
+              "RelativeDocumentMoniker": "Lab 5\\Course.h",
+              "ToolTip": "C:\\Users\\pable\\Documents\\Github\\Ohlone\\Data Structures\\Lab 5\\Lab 5\\Course.h",
+              "RelativeToolTip": "Lab 5\\Course.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-11-25T14:16:59.327Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ManageCourses.cpp",
+              "DocumentMoniker": "C:\\Users\\pable\\Documents\\Github\\Ohlone\\Data Structures\\Lab 5\\Lab 5\\ManageCourses.cpp",
+              "RelativeDocumentMoniker": "Lab 5\\ManageCourses.cpp",
+              "ToolTip": "C:\\Users\\pable\\Documents\\Github\\Ohlone\\Data Structures\\Lab 5\\Lab 5\\ManageCourses.cpp",
+              "RelativeToolTip": "Lab 5\\ManageCourses.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-11-24T22:17:04.795Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ManageCourses.h",
+              "DocumentMoniker": "C:\\Users\\pable\\Documents\\Github\\Ohlone\\Data Structures\\Lab 5\\Lab 5\\ManageCourses.h",
+              "RelativeDocumentMoniker": "Lab 5\\ManageCourses.h",
+              "ToolTip": "C:\\Users\\pable\\Documents\\Github\\Ohlone\\Data Structures\\Lab 5\\Lab 5\\ManageCourses.h",
+              "RelativeToolTip": "Lab 5\\ManageCourses.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-11-24T22:17:00.838Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "LinkedList.h",
+              "DocumentMoniker": "C:\\Users\\pable\\Documents\\Github\\Ohlone\\Data Structures\\Lab 5\\Lab 5\\LinkedList.h",
+              "RelativeDocumentMoniker": "Lab 5\\LinkedList.h",
+              "ToolTip": "C:\\Users\\pable\\Documents\\Github\\Ohlone\\Data Structures\\Lab 5\\Lab 5\\LinkedList.h",
+              "RelativeToolTip": "Lab 5\\LinkedList.h",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAuwBkAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-11-24T20:40:05.095Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Lab 5.cpp",
+              "DocumentMoniker": "C:\\Users\\pable\\Documents\\Github\\Ohlone\\Data Structures\\Lab 5\\Lab 5\\Lab 5.cpp",
+              "RelativeDocumentMoniker": "Lab 5\\Lab 5.cpp",
+              "ToolTip": "C:\\Users\\pable\\Documents\\Github\\Ohlone\\Data Structures\\Lab 5\\Lab 5\\Lab 5.cpp",
+              "RelativeToolTip": "Lab 5\\Lab 5.cpp",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAiwA4AAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-11-23T19:14:20.518Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Faculty.h",
+              "DocumentMoniker": "C:\\Users\\pable\\Documents\\Github\\Ohlone\\Data Structures\\Lab 5\\Lab 5\\Faculty.h",
+              "RelativeDocumentMoniker": "Lab 5\\Faculty.h",
+              "ToolTip": "C:\\Users\\pable\\Documents\\Github\\Ohlone\\Data Structures\\Lab 5\\Lab 5\\Faculty.h",
+              "RelativeToolTip": "Lab 5\\Faculty.h",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAACcAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-11-23T18:58:44.894Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "LinkedListSet.h",
+              "DocumentMoniker": "C:\\Users\\pable\\Documents\\Github\\Ohlone\\Data Structures\\Lab 5\\Lab 5\\LinkedListSet.h",
+              "RelativeDocumentMoniker": "Lab 5\\LinkedListSet.h",
+              "ToolTip": "C:\\Users\\pable\\Documents\\Github\\Ohlone\\Data Structures\\Lab 5\\Lab 5\\LinkedListSet.h",
+              "RelativeToolTip": "Lab 5\\LinkedListSet.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-11-16T18:17:16.628Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CourseMenu.h",
+              "DocumentMoniker": "C:\\Users\\pable\\Documents\\Github\\Ohlone\\Data Structures\\Lab 5\\Lab 5\\CourseMenu.h",
+              "RelativeDocumentMoniker": "Lab 5\\CourseMenu.h",
+              "ToolTip": "C:\\Users\\pable\\Documents\\Github\\Ohlone\\Data Structures\\Lab 5\\Lab 5\\CourseMenu.h",
+              "RelativeToolTip": "Lab 5\\CourseMenu.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADcAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-11-16T16:46:33.739Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Menu.h",
+              "DocumentMoniker": "C:\\Users\\pable\\Documents\\Github\\Ohlone\\Data Structures\\Lab 5\\Lab 5\\Menu.h",
+              "RelativeDocumentMoniker": "Lab 5\\Menu.h",
+              "ToolTip": "C:\\Users\\pable\\Documents\\Github\\Ohlone\\Data Structures\\Lab 5\\Lab 5\\Menu.h",
+              "RelativeToolTip": "Lab 5\\Menu.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-11-12T04:38:55.551Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

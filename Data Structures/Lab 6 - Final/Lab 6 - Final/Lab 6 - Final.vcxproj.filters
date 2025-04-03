@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Menus">
+      <UniqueIdentifier>{09807e39-e73b-4835-ad84-587e9ee12c11}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data Structures">
+      <UniqueIdentifier>{4e5df5cd-45b3-496c-83ee-7009e9b5b2c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Managers">
+      <UniqueIdentifier>{007a048b-63cc-45b9-ba2c-bddf81612106}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Lab 6 - Final.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dateTime.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="menu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="menuOption.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="user.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="login.cpp">
+      <Filter>Menus</Filter>
+    </ClCompile>
+    <ClCompile Include="mainMenu.cpp">
+      <Filter>Menus</Filter>
+    </ClCompile>
+    <ClCompile Include="userMenu.cpp">
+      <Filter>Menus</Filter>
+    </ClCompile>
+    <ClCompile Include="courseMenu.cpp">
+      <Filter>Menus</Filter>
+    </ClCompile>
+    <ClCompile Include="course.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mangeCourse.cpp">
+      <Filter>Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="contactManager.cpp">
+      <Filter>Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="contactMenu.cpp">
+      <Filter>Menus</Filter>
+    </ClCompile>
+    <ClCompile Include="person.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gradeManager.cpp">
+      <Filter>Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="gradeMenu.cpp">
+      <Filter>Menus</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="dateTime.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="date.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="time.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="dataException.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="menu.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="menuOption.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="user.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="login.h">
+      <Filter>Menus</Filter>
+    </ClInclude>
+    <ClInclude Include="mainMenu.h">
+      <Filter>Menus</Filter>
+    </ClInclude>
+    <ClInclude Include="userMenu.h">
+      <Filter>Menus</Filter>
+    </ClInclude>
+    <ClInclude Include="tree.h">
+      <Filter>Data Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="course.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="courseMenu.h">
+      <Filter>Menus</Filter>
+    </ClInclude>
+    <ClInclude Include="manageCourse.h">
+      <Filter>Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="linkedList.h">
+      <Filter>Data Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="list.h">
+      <Filter>Data Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="abstractArrayList.h">
+      <Filter>Data Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="arrayList.h">
+      <Filter>Data Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="contactMenu.h">
+      <Filter>Menus</Filter>
+    </ClInclude>
+    <ClInclude Include="contactManager.h">
+      <Filter>Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="person.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="binaryTree.h">
+      <Filter>Data Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="assignment.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gradeManager.h">
+      <Filter>Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="gradeMenu.h">
+      <Filter>Menus</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
