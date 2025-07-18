@@ -1,2 +1,3 @@
-# ohlone-menu-classes
-Ohlone main project to build and navigate data based on college students, professor and classes offered in CS
+# CS Classes
+## Organization 
+Each folder contains a particular class with some code that was develop during a LAB assignment or midterm
